@@ -1,0 +1,105 @@
+/* Resets margin and padding for all elements and sets box-sizing to include padding and border in element's total width and height */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles the container with a light blue background, ensures it fills the viewport height, and adds a thick dark border */
+  .container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+  }
+  
+  /* Centers the content within the container and limits its width to 900px */
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Adds space at the top, uses flexbox to align children horizontally with space between them, and aligns items at the bottom */
+  .top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  /* Styles the main heading with a large font size, bold text, dark color, and uppercase letters */
+  .top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+  
+  /* Styles the subheading with medium font size and aligns the text to the right */
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+  }
+  
+  /* Makes the image container circular and hides content overflowing its boundary */
+  .image_container {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  /* Ensures both the container and image have consistent dimensions */
+  .image_container,
+  img {
+    width: 300px;
+    height: 320px;
+  }
+  
+  /* Adds spacing above the "About" section */
+  .about_section {
+    margin-top: 50px;
+  }
+  
+  /* Styles the secondary heading with a very large font size, lighter weight, and spacing below */
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles the paragraph text for better readability with appropriate font size, line height, and justification */
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+  }
+  
+  /* Adds vertical spacing around the "Biographies" section */
+  .biography_section {
+    margin: 50px 0;
+  }
+  
+  /* Adds spacing below the tertiary heading in the "Biographies" section */
+  .biography_section h3 {
+    margin-bottom: 20px;
+  }
+  
+  /* Adds left indentation to the unordered list */
+  .biography_section ul {
+    margin-left: 50px;
+  }
+  
+  /* Adds spacing between list items */
+  .biography_section li {
+    margin-bottom: 15px;
+  }
+  
+  /* Adds vertical spacing around the footer */
+  footer {
+    margin: 50px 0;
+  }
+  
+  /* Aligns the footer text to the right */
+  footer p {
+    text-align: end;
+  }
+  
